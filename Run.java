@@ -19,6 +19,7 @@ public class Run {
         return milage;
     }
 
-
-
+    public String toString() {
+        return name + ": " + milage;
+    }
 }
