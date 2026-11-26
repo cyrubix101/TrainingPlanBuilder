@@ -29,7 +29,7 @@ public class Schedule {
 
     public double getMilageForWeek(int week) {
         Run[] currWeek = data[week];
-        int sum = 0;
+        double sum = 0;
         for (Run x: currWeek) {
             sum += x.getMilage();
         }
