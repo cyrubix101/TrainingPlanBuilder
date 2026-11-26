@@ -29,11 +29,20 @@ public class Main {
         runs.add(new Run(12.20, "Long", 9));
         runs.add(new Run(12.21, "Full Rest", 0));
 
+        //Down week
+        runs.add(new Run(12.14, "Recovery", 5));
+        runs.add(new Run(12.15, "Workout", 7));
+        runs.add(new Run(12.17, "Recovery", 6));
+        runs.add(new Run(12.18, "Recovery + Spice", 6));
+        runs.add(new Run(12.19, "Recovery", 6));
+        runs.add(new Run(12.20, "Long", 10.5));
+        runs.add(new Run(12.21, "Full Rest", 0));
+
 
         Schedule test = new Schedule(runs);
         System.out.println(test);
 
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 4; i++) {
             System.out.println("Week "+ (i + 1) +" milage: " + test.getMilageForWeek(i));
         }
     }
