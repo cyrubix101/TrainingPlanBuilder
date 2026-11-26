@@ -116,6 +116,7 @@ public class Main {
         Schedule test = new Schedule(runs);
         System.out.println(test);
 
+        
         for (int i = 0; i < 100; i++) {
             System.out.println("Week "+ (i + 1) +" milage: " + test.getMilageForWeek(i));
         }
