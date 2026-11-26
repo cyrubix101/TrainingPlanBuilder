@@ -1,0 +1,20 @@
+public class DoubleRun extends Run{
+
+    private String name2;
+    private double milage2;
+
+    public DoubleRun(double date, String name, double milage, String name2, double milage2) {
+        super(date, name, milage);
+
+        this.name2 = name2;
+        this.milage2 = milage2;
+
+    }
+
+    public String getName2() {
+        return name2;
+    }
+    public double getMilage2() {
+        return milage2;
+    }
+}
