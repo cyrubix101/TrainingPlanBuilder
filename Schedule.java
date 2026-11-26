@@ -6,7 +6,7 @@ public class Schedule {
         int week = 0;
         int day = 0;
         for (int i = 0; i < input.size(); i++) {
-            if (day > 7) {
+            if (day > 6) {
                 day = 0;
                 week++;
             }
