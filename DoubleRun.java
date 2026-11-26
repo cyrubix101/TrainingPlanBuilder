@@ -14,7 +14,9 @@ public class DoubleRun extends Run{
     public String getName2() {
         return name2;
     }
-    public double getMilage2() {
-        return milage2;
+
+    @Override 
+    public double getMilage() {
+        return milage + milage2;
     }
 }

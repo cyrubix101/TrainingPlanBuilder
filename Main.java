@@ -38,11 +38,34 @@ public class Main {
         runs.add(new Run(12.20, "Long", 10.5));
         runs.add(new Run(12.21, "Full Rest", 0));
 
+        runs.add(new Run(12.14, "Workout", 8));
+        runs.add(new Run(12.15, "Recovery", 6));
+        runs.add(new Run(12.17, "Recovery", 5));
+        runs.add(new Run(12.18, "Workout", 7));
+        runs.add(new Run(12.19, "Recovery", 6));
+        runs.add(new Run(12.20, "Long", 10));
+        runs.add(new Run(12.21, "Full Rest", 0));
+
+        runs.add(new Run(12.14, "Workout", 8));
+        runs.add(new Run(12.15, "Recovery", 7));
+        runs.add(new Run(12.17, "Recovery", 6));
+        runs.add(new Run(12.18, "Workout", 7));
+        runs.add(new Run(12.19, "Recovery", 6));
+        runs.add(new Run(12.20, "Long", 11));
+        runs.add(new Run(12.21, "Full Rest", 0));
+
+        runs.add(new Run(12.14, "VO2 MAX", 8));
+        runs.add(new Run(12.15, "Recovery", 7));
+        runs.add(new Run(12.17, "Recovery", 6));
+        runs.add(new Run(12.18, "Workout", 8));
+        runs.add(new Run(12.19, "Recovery", 6));
+        runs.add(new Run(12.20, "Long", 11));
+        runs.add(new Run(12.21, "Full Rest", 0));
 
         Schedule test = new Schedule(runs);
         System.out.println(test);
 
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 100; i++) {
             System.out.println("Week "+ (i + 1) +" milage: " + test.getMilageForWeek(i));
         }
     }
