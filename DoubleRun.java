@@ -19,4 +19,9 @@ public class DoubleRun extends Run{
     public double getMilage() {
         return milage + milage2;
     }
+
+    @Override 
+    public String toString() {
+        return name + " + " + name2 + ": " + milage + "," + milage2;
+    }
 }

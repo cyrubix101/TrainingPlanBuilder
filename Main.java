@@ -54,6 +54,7 @@ public class Main {
         runs.add(new DoubleRun(12.20, "Long", 11, "Recovery", 4));
         runs.add(new Run(12.21, "Full Rest", 0));
 
+        //Down Week
         runs.add(new Run(12.14, "Recovery", 7));
         runs.add(new Run(12.15, "Workout", 8));
         runs.add(new Run(12.17, "Recovery", 7));
@@ -61,7 +62,56 @@ public class Main {
         runs.add(new Run(12.19, "Recovery", 7));
         runs.add(new Run(12.20, "Long", 10.5));
         runs.add(new Run(12.21, "Full Rest", 0));
-        
+
+        runs.add(new DoubleRun(12.14, "Workout", 8, "Workout", 6));
+        runs.add(new Run(12.15, "Recovery", 7));
+        runs.add(new Run(12.17, "Recovery", 6.5));
+        runs.add(new Run(12.18, "Workout", 8));
+        runs.add(new Run(12.19, "Recovery", 7));
+        runs.add(new Run(12.20, "Long", 12));
+        runs.add(new Run(12.21, "Full Rest", 0));
+
+        runs.add(new DoubleRun(12.14, "VO2 MAX", 8, "Workout", 6));
+        runs.add(new Run(12.15, "Recovery", 7));
+        runs.add(new Run(12.17, "Recovery", 7));
+        runs.add(new Run(12.18, "Workout", 9));
+        runs.add(new Run(12.19, "Recovery", 7));
+        runs.add(new Run(12.20, "Long", 13));
+        runs.add(new Run(12.21, "Full Rest", 0));
+
+        //Down Week
+        runs.add(new Run(12.14, "Recovery", 7));
+        runs.add(new DoubleRun(12.15, "Workout", 8, "Recovery", 5));
+        runs.add(new Run(12.17, "Recovery", 7));
+        runs.add(new Run(12.18, "Recovery + Spice", 8));
+        runs.add(new Run(12.19, "Recovery", 7));
+        runs.add(new Run(12.20, "Long", 13));
+        runs.add(new Run(12.21, "Full Rest", 0));
+
+        runs.add(new DoubleRun(12.14, "Workout", 8, "Workout", 6));
+        runs.add(new Run(12.15, "Recovery", 7));
+        runs.add(new Run(12.17, "Recovery", 7));
+        runs.add(new DoubleRun(12.18, "Workout", 9, "Recovery", 3));
+        runs.add(new Run(12.19, "Recovery", 7));
+        runs.add(new Run(12.20, "Long", 13));
+        runs.add(new Run(12.21, "Full Rest", 0));
+
+        runs.add(new DoubleRun(12.14, "V02Max", 8, "Workout", 6));
+        runs.add(new Run(12.15, "Recovery", 8));
+        runs.add(new Run(12.17, "Recovery", 7));
+        runs.add(new DoubleRun(12.18, "Workout", 9, "Recovery", 4));
+        runs.add(new Run(12.19, "Recovery", 7));
+        runs.add(new Run(12.20, "Long", 14));
+        runs.add(new Run(12.21, "Full Rest", 0));
+
+        //Down Week
+        runs.add(new Run(12.14, "Recovery", 8));
+        runs.add(new DoubleRun(12.15, "Workout", 8, "Recovery", 5));
+        runs.add(new Run(12.17, "Recovery", 8));
+        runs.add(new Run(12.18, "Recovery + Spice", 9));
+        runs.add(new Run(12.19, "Recovery", 7));
+        runs.add(new Run(12.20, "Long", 15));
+        runs.add(new Run(12.21, "Full Rest", 0));
 
         Schedule test = new Schedule(runs);
         System.out.println(test);

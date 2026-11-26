@@ -1,7 +1,7 @@
 import java.util.List;
 
 public class Schedule {
-    private Run[][] data = new Run[10][7];
+    private Run[][] data = new Run[16][7];
     public Schedule (List<Run> input) {
         int week = 0;
         int day = 0;
