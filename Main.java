@@ -46,7 +46,7 @@ public class Main {
         runs.add(new Run(12.20, "Long", 10));
         runs.add(new Run(12.21, "Full Rest", 0));
 
-        runs.add(new Run(12.14, "Workout", 8));
+        runs.add(new Run(12.14, "VO2 MAX", 8));
         runs.add(new Run(12.15, "Recovery", 7));
         runs.add(new Run(12.17, "Recovery", 6));
         runs.add(new Run(12.18, "Workout", 7));
@@ -54,12 +54,12 @@ public class Main {
         runs.add(new Run(12.20, "Long", 11));
         runs.add(new Run(12.21, "Full Rest", 0));
 
-        runs.add(new Run(12.14, "VO2 MAX", 8));
-        runs.add(new Run(12.15, "Recovery", 7));
-        runs.add(new Run(12.17, "Recovery", 6));
-        runs.add(new Run(12.18, "Workout", 8));
-        runs.add(new Run(12.19, "Recovery", 6));
-        runs.add(new Run(12.20, "Long", 11));
+        runs.add(new Run(12.14, "Recovery", 7));
+        runs.add(new Run(12.15, "Workout", 8));
+        runs.add(new Run(12.17, "Recovery", 7));
+        runs.add(new Run(12.18, "Recovery + Spice", 7));
+        runs.add(new Run(12.19, "Recovery", 7));
+        runs.add(new Run(12.20, "Long", 10.5));
         runs.add(new Run(12.21, "Full Rest", 0));
 
         Schedule test = new Schedule(runs);
